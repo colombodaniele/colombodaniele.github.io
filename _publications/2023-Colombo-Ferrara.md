@@ -5,7 +5,7 @@ permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: ''
 date: 2023-12-15
 venue: 'Journal 1'
-paperurl: 'http://colombodaniele.github.io/files/Dynamic_effects_of_weather_shocks_on_production_in_European_economies15-12-2023.pdf'
+paperurl: ''
 citation: 'Colombo D, Ferrara L. (2023) "Dynamic effects of weather shocks on production in European economies" '
 ---
 This paper evaluates the dynamic impact of weather shocks on economic activity within the three main European countries. To consolidate meaningful
@@ -15,6 +15,6 @@ models to assess the effects of weather shocks on distinct production sectors, n
 evidence of a significant impact of weather shocks on economic activity in Europe, with each component of the CWI exerting heterogeneous effects across
 different countries and production sectors.
 
-[Download paper here]('http://colombodaniele.github.io/files/Dynamic_effects_of_weather_shocks_on_production_in_European_economies15-12-2023.pdf)
+[Download paper here]('http://colombodaniele.github.io/files/Dynamic_effects_of_weather_shocks_on_production_in_European_economies15-12-2023.pdf')
 
 Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
