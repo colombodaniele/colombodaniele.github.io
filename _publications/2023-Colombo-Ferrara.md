@@ -15,6 +15,4 @@ models to assess the effects of weather shocks on distinct production sectors, n
 evidence of a significant impact of weather shocks on economic activity in Europe, with each component of the CWI exerting heterogeneous effects across
 different countries and production sectors.
 
-[Download paper here]('http://colombodaniele.github.io/files/Dynamic_effects_of_weather_shocks_on_production_in_European_economies15-12-2023.pdf')
-
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+[Download paper here](http://colombodaniele.github.io/files/Dynamic_effects_of_weather_shocks_on_production_in_European_economies15-12-2023.pdf)
