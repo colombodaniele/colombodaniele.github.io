@@ -1,7 +1,7 @@
 ---
 title: "Dynamic effects of weather shocks on production in European economies"
 collection: working papers
-permalink: /publication/ColomboFerrara2024
+permalink: /publication/2024-Colombo-Ferrara
 excerpt: ''
 date: 2023-12-15
 venue: 'Daniele Colombo & Laurent Ferrara'
