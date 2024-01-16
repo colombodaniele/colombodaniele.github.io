@@ -11,7 +11,7 @@ redirect_from:
 
 About me
 ------
-Hi! I am a second-year Ph.D. student in Economics at [London Business School](https://www.london.edu/faculty-and-research/economics).
+<span class="wave">👋</span> Hi! I am a second-year Ph.D. student in Economics at [London Business School](https://www.london.edu/faculty-and-research/economics).
 
 
 Updates
