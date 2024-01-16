@@ -2,10 +2,10 @@
 title: "Dynamic effects of weather shocks on production in European economies"
 collection: working papers
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: ''
+excerpt: 'we'
 date: 2023-12-15
 venue: 'Daniele Colombo & Laurent Ferrara'
-paperurl: ''
+paperurl:
 citation:
 ---
 This paper evaluates the dynamic impact of weather shocks on economic activity within the three main European countries. To consolidate meaningful variation in weather patterns, we propose a novel monthly composite weather index (CWI). This index captures relevant information on severe cold and heat conditions, drought, heavy precipitation, and intense wind events. We estimate a series of country-specific Bayesian Structural Vector Autoregressive models to assess the effects of weather shocks on distinct production sectors, namely energy, construction, manufacturing, and services. The findings reveal evidence of a significant impact of weather shocks on economic activity in Europe, with each component of the CWI exerting heterogeneous effects across different countries and production sectors.
