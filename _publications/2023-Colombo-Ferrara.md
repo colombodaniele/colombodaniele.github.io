@@ -3,7 +3,7 @@ title: "Dynamic effects of weather shocks on production in European economies"
 collection: working papers
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Daniele Colombo & Laurent Ferrara (2023)'
-date: 
+date: 2023-12-15
 venue: 
 paperurl:
 citation:
