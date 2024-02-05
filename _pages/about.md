@@ -17,9 +17,9 @@ About me
 Updates
 ------
 
-**2023/01/31:** Our new paper on the impact of weather shocks on production in European economies is now part of the CAMA Working papers series and is available [here](https://cama.crawford.anu.edu.au/sites/default/files/publication/cama_crawford_anu_edu_au/2024-01/07_2024_colombo_ferrara.pdf).
+**2023/01/31:** Our new paper on the impact of weather shocks on production in European economies is now part of the CAMA Working papers series and is available [here](https://cama.crawford.anu.edu.au/sites/default/files/publication/cama_crawford_anu_edu_au/2024-01/07_2024_colombo_ferrara.pdf)!
 
-**2023/10/30:** I am going to present my work on the impact of weather shocks in Europe at the [San Francisco FED](https://www.bi.edu/about-bi/events/2023/june/iaae2023/) next week. [Here](https://colombodaniele.github.io/files/SLIDES - Dynamic_effects_of_weather_shocks_on_production_in_European_economies.pdf) you can also find my slides.
+**2023/10/30:** I am going to present my work on the impact of weather shocks in Europe at the [San Francisco Fed](https://www.bi.edu/about-bi/events/2023/june/iaae2023/) next week. [Here](https://colombodaniele.github.io/files/SLIDES - Dynamic_effects_of_weather_shocks_on_production_in_European_economies.pdf) you can also find my slides.
 
 **2022/08/28:** I am going to present my work on the impact of gas shocks on inflation in Europe at the [3rd Sailing the Macro Workshop](https://www.sailingthemacro.com/) next week. [Here](https://colombodaniele.github.io/files/slides_Gas_Price_Shocks_and_the_Inflation_Surge_in_Europe.pdf) you can also find my slides.
 
