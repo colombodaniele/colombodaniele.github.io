@@ -16,3 +16,8 @@ About me
 
 Updates
 ------
+
+**2022/03/22:** I graduated in *Economics and Management* from Paris School of Economics, with a thesis on the analysis of bibliographic data of publications in genome research, exploiting networks and functional data.
+
+**2021/03/22:** I graduated in *Economics and Management* from Sant'Anna School of Advanced Studies, Pisa, with a thesis on the analysis of bibliographic data of publications in genome research, exploiting networks and functional data. This concludes my journey as a Honors student at Sant'Anna!
+
