@@ -29,7 +29,7 @@ Updates
 
 **2022/06/15:** I graduated in *Analysis and Policy in Economics* from Paris School of Economics, with a thesis on the impact of weather shocks on production in European economies, exploiting SVAR techniques.
 
-**2021/10/04:** I obtained my *Master of Science in Economics* from Sant'Anna School of Advanced Studies and the Univeristy of Pisa, with a thesis on NGSI: a data-driven technique to identify structural VAR models that I developed. You can find it [Here](https://colombodaniele.github.io/files/COLOMBO - Master Thesis.pdf). This concludes my journey as a Honors student at Sant'Anna!
+**2021/10/04:** I obtained my *Master of Science in Economics* from Sant'Anna School of Advanced Studies and the Univeristy of Pisa, with a thesis on NGSI: a data-driven technique to identify structural VAR models that I developed. You can find it [here](https://colombodaniele.github.io/files/COLOMBO - Master Thesis.pdf). This concludes my journey as a Honors student at Sant'Anna!
 
 
 
