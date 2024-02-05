@@ -25,7 +25,7 @@ Updates
 
 **2022/08/20:** I am starting my Ph.D. at London Business School. I am very excited to join the [Department of Economics](https://www.london.edu/faculty-and-research/economics)!
 
-**2022/03/22:** I graduated in *Economics and Management* from Paris School of Economics, with a thesis on the analysis of bibliographic data of publications in genome research, exploiting networks and functional data.
+**2022/06/15:** I graduated in *Analysis and Policy in Economics* from Paris School of Economics, with a thesis on the impact of weather shocks on production in European economies, exploiting SVAR techniques.
 
-**2021/03/22:** I graduated in *Economics and Management* from Sant'Anna School of Advanced Studies, Pisa, with a thesis on the analysis of bibliographic data of publications in genome research, exploiting networks and functional data. This concludes my journey as a Honors student at Sant'Anna!
+**2021/03/22:** I obtained my *Master of Science in Economics* from Sant'Anna School of Advanced Studies and the Univeristy of Pisa, with a thesis in on a data-driven technique to identify structural VAR models that I developed. This concludes my journey as a Honors student at Sant'Anna!
 
