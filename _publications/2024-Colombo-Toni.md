@@ -1,7 +1,7 @@
 ---
 title: "Gas Price Shocks and the Inflation Surge"
 collection: working papers
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2009-10-01-paper-title-number-2
 excerpt: 'Daniele Colombo & Francesco Toni (2024)'
 venue: 
 paperurl:
