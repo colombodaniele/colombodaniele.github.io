@@ -13,7 +13,7 @@ We then quantify the contribution of the gas price shocks, together with oil pri
 Finally, we identify the corresponding gas price shocks in the US and show that their macroeconomic effects are less severe compared to those in the Euro Area, also providing comparable estimates of the pass-through of gas and oil shocks in both regions. 
 
 [Download my slides here](http://colombodaniele.github.io/files/SLIDES_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
-[Download paper here](http://colombodaniele.github.io/files/Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
+[Download paper here](http://colombodaniele.github.io/files/Gas_price_shocks_and_the_Inflation_Surge.pdf)
 
 Suggested citation: Colombo D., & Toni F. (2024) "Gas Price Shocks and the Inflation Surge"
 
