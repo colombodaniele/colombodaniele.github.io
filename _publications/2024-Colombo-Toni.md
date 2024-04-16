@@ -12,8 +12,8 @@ We identify a supply shock to the gas price in the Euro Area using market-releva
 We then quantify the contribution of the gas price shocks, together with oil price, global supply chain bottlenecks and monetary policy shocks on the realized series of inflation. We find that gas and supply chain bottleneck shocks have been among the major drivers of the recent inflation surge in the Euro Area. 
 Finally, we identify the corresponding gas price shocks in the US and show that their macroeconomic effects are less severe compared to those in the Euro Area, also providing comparable estimates of the pass-through of gas and oil shocks in both regions. 
 
-[Download paper here](http://colombodaniele.github.io/files/COLOMBO_TONI%20-%20Gas_Price_Shocks_and_the_Inflation_Surge_in_Europe.pdf)
+[Download paper here](http://colombodaniele.github.io/files/files/Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
 
 Suggested citation: Colombo D., & Toni F. (2024) "Gas Price Shocks and the Inflation Surge"
 
-![Figure3](/images/Figure_ColomboToni2024.png)
+![Figure4](/images/Figure_ColomboToni2024.png)
