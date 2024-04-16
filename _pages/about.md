@@ -18,6 +18,8 @@ My research focuses on applied macroeconomics, climate economics and networks.
 Updates
 ------
 
+**2024/01/10:** The draft of our paper on identifying shocks to the price of gas is out! You can find it in the _Research_ section.
+
 **2023/01/31:** Our new paper on the impact of weather shocks on production in European economies is now part of the CAMA Working papers series and is available [here](https://cama.crawford.anu.edu.au/sites/default/files/publication/cama_crawford_anu_edu_au/2024-01/07_2024_colombo_ferrara.pdf)!
 
 **2023/10/30:** I am going to present my work on the impact of weather shocks in Europe at the [San Francisco Fed](https://colombodaniele.github.io/files/Conference Agenda_Nov23_DRAFT_30AUG2023.pdf) next week. You can find my slides [here](https://colombodaniele.github.io/files/SLIDES - Dynamic_effects_of_weather_shocks_on_production_in_European_economies.pdf).
