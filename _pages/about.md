@@ -18,6 +18,8 @@ My research focuses on applied macroeconomics, climate economics and networks.
 Updates
 ------
 
+**2024/08/26:** I am going to present my work on the impact of gas shocks on inflation in Europe at the [Energy Transition and Climate Change Workshop](https://sites.google.com/ucr.edu/energytransitionclimatechange/home/) next month.
+
 **2024/01/10:** The draft of our paper on identifying shocks to the price of gas is out! You can find it in the _Research_ section.
 
 **2023/01/31:** Our new paper on the impact of weather shocks on production in European economies is now part of the CAMA Working papers series and is available [here](https://cama.crawford.anu.edu.au/sites/default/files/publication/cama_crawford_anu_edu_au/2024-01/07_2024_colombo_ferrara.pdf)!
