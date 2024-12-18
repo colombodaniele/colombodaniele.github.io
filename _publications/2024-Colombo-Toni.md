@@ -14,7 +14,7 @@ Finally, we identify the corresponding gas price shocks in the US and show that 
 We also provide comparable estimates of the pass-through of gas and oil price shocks in both regions.
 
 [Download my slides here](http://colombodaniele.github.io/files/SLIDES_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
-[Download paper here](http://colombodaniele.github.io/files/Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
+[Download paper here](http://colombodaniele.github.io/files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
 
 Suggested citation: Colombo D., & Toni F. (2024) "Gas Price Shocks and the Inflation Surge"
 
