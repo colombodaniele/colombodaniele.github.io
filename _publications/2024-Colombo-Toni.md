@@ -18,4 +18,6 @@ We also provide comparable estimates of the pass-through of gas and oil price sh
 
 Suggested citation: Colombo D., & Toni F. (2024) "Gas Price Shocks and the Inflation Surge"
 
-![Figure4](/images/Figure_ColomboToni2024.png)
+![Figure4](/images/Contribution of Gasp on gasp.png)
+ 
+
