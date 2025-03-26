@@ -8,15 +8,14 @@ paperurl:
 citation:
 ---
 
-We identify a supply shock to the gas price in the Euro Area using market-relevant news and high-frequency data, as well as a demand shock leveraging exogenous variation induced in the price of gas by anomalous temperatures. These shocks have economically significant effects. Gas supply and demand shocks exert significant impacts on both headline (3% pass-through) and core inflation (1% pass-through). However, while gas supply shocks have a less pronounced overall effect, their effects are more persistent in some key sectors, such as energy, compared to demand shocks.
-We also document an important interdependence of the gas and oil markets, where shocks in gas and oil prices mutually influence both commodities. Crucially, gas price shocks have more persistent effects on macro variables with respect to the corresponding oil price shocks. 
-Finally, we identify the corresponding gas price shocks in the US and show that their macroeconomic effects are less severe compared to those in the Euro Area. In the US natural gas quantities respond significantly, offsetting gas shocks within 9 months. 
-We also provide comparable estimates of the pass-through of gas and oil price shocks in both regions.
+We identify supply and demand shocks to natural gas prices in the Euro Area and the United States. Demand shocks are identified using exogenous temperature variations, while supply shocks are identified through a high-frequency strategy based on an extensive collection of market-relevant news. This approach enables us to estimate gas market elasticities and uncover key transmission channels through which gas price shocks affect the broader macroeconomy.
+Our findings show that gas demand in the Euro Area adjusts more slowly than in the United States, amplifying the inflationary impact of supply shocks. This effect is reinforced by rising inventories and financial volatility, pointing to a transmission channel driven by expectations and uncertainty.
+The aggregate real effects appear limited, though we document substantial sectoral heterogeneity.
 
 [Download my slides here](http://colombodaniele.github.io/files/SLIDES_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
 [Download paper here](http://colombodaniele.github.io/files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
 
-Suggested citation: Colombo D., & Toni F. (2024) "Gas Price Shocks and the Inflation Surge"
+Suggested citation: Colombo D., & Toni F. (2025) "Understanding Gas Price Shocks"
 
 ![Figure4](/images/Contribution of Gasp on gasp.png)
  
