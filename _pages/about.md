@@ -18,6 +18,12 @@ My research focuses on applied macroeconomics, climate economics and networks.
 Updates
 ------
 
+**2024/05/13:** In July I will be attending the [NBER Summer Institute, International Economics and Geopolitics](https://www.nber.org/conferences/summer-institute-2025).
+
+**2024/05/13:** I will be presenting my work on identifying supply and demand shocks to the price of natural gas at the [Annual Conferences of the International Association for Applied Econometrics](https://sites.google.com/view/iaae2025) next month.
+
+**2025/03/26:** I will be attending the [NBER Heterogeneous-Agent Macroeconomics Workshop](https://www.nber.org/conferences/heterogeneous-agent-macroeconomics-workshop-spring-2025) in June! 
+
 **2024/08/26:** I am going to present my work on the impact of gas shocks on inflation in Europe at the [Energy Transition and Climate Change Workshop](https://sites.google.com/ucr.edu/energytransitionclimatechange/home/) next month.
 
 **2024/01/10:** The draft of our paper on identifying shocks to the price of gas is out! You can find it in the _Research_ section.
