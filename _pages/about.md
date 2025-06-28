@@ -18,9 +18,9 @@ My research focuses on applied macroeconomics, climate economics and networks.
 Updates
 ------
 
-**2024/05/13:** In July I will be attending the [NBER Summer Institute, International Economics and Geopolitics](https://www.nber.org/conferences/summer-institute-2025).
+**2025/06/29:** In July I will be attending the [NBER Summer Institute, International Economics and Geopolitics](https://www.nber.org/conferences/summer-institute-2025).
 
-**2024/05/13:** I will be presenting my work on identifying supply and demand shocks to the price of natural gas at the [Annual Conferences of the International Association for Applied Econometrics](https://sites.google.com/view/iaae2025) next month.
+**2025/06/27:** I presented our work on identifying supply and demand shocks to the price of natural gas at the [Annual Conferences of the International Association for Applied Econometrics](https://sites.google.com/view/iaae2025) and I'm thrilled to announce that we won the **Student's Best Paper Award**! You can find my slides [here](https://colombodaniele.github.io/files/slides_Gas_Price_Shocks_and_the_Inflation_Surge_in_Europe.pdf)
 
 **2025/03/26:** I will be attending the [NBER Heterogeneous-Agent Macroeconomics Workshop](https://www.nber.org/conferences/heterogeneous-agent-macroeconomics-workshop-spring-2025) in June! 
 
