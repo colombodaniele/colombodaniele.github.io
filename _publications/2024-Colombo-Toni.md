@@ -2,7 +2,7 @@
 title: "Understanding Gas Price Shocks: Elasticities, Volatility, and Macroeconomic Transmission"
 collection: working papers
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'Daniele Colombo & Francesco Toni (2025)'
+excerpt: 'Daniele Colombo & Francesco Toni (2024)'
 venue: 
 paperurl:
 citation:
