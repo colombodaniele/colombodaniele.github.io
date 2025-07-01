@@ -17,4 +17,4 @@ This paper investigates the dynamic effects of weather shocks on economic activi
 
 Suggested citation: Colombo D., & Ferrara L. (2023) "Dynamic sectoral effects of weather shocks on European economies"
 
-![Figure3](/images/Figure_ColomboFerrara2025.pdf)
+![Figure3](/images/Figure_ColomboFerrara2025.png)
