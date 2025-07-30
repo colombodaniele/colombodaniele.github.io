@@ -1,5 +1,5 @@
 ---
-title: "Understanding Gas Price Shocks: Elasticities, Volatility, and Macroeconomic Transmission"
+title: "Gas Prices and the Macroeconomy"
 collection: working papers
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'Daniele Colombo & Francesco Toni (2024)'
@@ -15,7 +15,7 @@ The aggregate real effects appear limited, though we document substantial sector
 [Download my slides here](http://colombodaniele.github.io/files/SLIDES_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
 [Download paper here](http://colombodaniele.github.io/files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
 
-Suggested citation: Colombo D., & Toni F. (2025) "Understanding Gas Price Shocks: Elasticities, Volatility, and Macroeconomic Transmission"
+Suggested citation: Colombo D., & Toni F. (2025) "Gas Prices and the Macroeconomy"
 
 ![Figure4](/images/Contribution of Gasp on gasp.png)
  
