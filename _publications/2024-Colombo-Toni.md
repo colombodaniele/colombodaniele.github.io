@@ -12,6 +12,7 @@ We identify supply and demand shocks to the real price of natural gas leveraging
 
 [Download my slides here](http://colombodaniele.github.io/files/SLIDES_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
 [Download paper here](http://colombodaniele.github.io/files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf)
+[Download shocks here](http://colombodaniele.github.io/files/Gas_Instruments_Colombo_Toni_2025.xlsx)
 
 Suggested citation: Colombo D., & Toni F. (2025) "Gas Prices and the Macroeconomy"
 
