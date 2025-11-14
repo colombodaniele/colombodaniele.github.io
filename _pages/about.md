@@ -18,6 +18,8 @@ My research focuses on applied macroeconomics, energy, climate and networks.
 Updates
 ------
 
+**2025/11/03:** I two weeks, I will be presenting my research at the [London Macro PhD Workshop](https://sites.google.com/view/london-macro-phd-workshop/home/) at the London School of Economics.
+
 **2025/06/29:** In July I will be attending the [NBER Summer Institute, International Economics and Geopolitics](https://www.nber.org/conferences/summer-institute-2025).
 
 **2025/06/27:** I presented our work on identifying supply and demand shocks to the price of natural gas at the [Annual Conferences of the International Association for Applied Econometrics](https://sites.google.com/view/iaae2025) and I'm thrilled to announce that we won the **Student's Best Paper Award**! You can find my slides [here](https://colombodaniele.github.io/files/SLIDES_Gas_Price_Shocks_and_the_Inflation_Surge.pdf).
