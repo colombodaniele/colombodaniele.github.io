@@ -18,7 +18,9 @@ My research focuses on applied macroeconomics, energy, climate and networks.
 Updates
 ------
 
-**2025/11/03:** I two weeks, I will be presenting my research at the [London Macro PhD Workshop](https://sites.google.com/view/london-macro-phd-workshop/home/) at the London School of Economics.
+**2025/12/01:** Next week I will be attending the [CEPR Symposium]([https://www.nber.org/conferences/summer-institute-2025](https://cepr.org/events/event-series/cepr-paris-symposium/cepr-paris-symposium-2025).
+
+**2025/11/03:** In two weeks, I will be presenting my research at the [London Macro PhD Workshop](https://sites.google.com/view/london-macro-phd-workshop/home/) at the London School of Economics.
 
 **2025/06/29:** In July I will be attending the [NBER Summer Institute, International Economics and Geopolitics](https://www.nber.org/conferences/summer-institute-2025).
 
