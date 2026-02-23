@@ -2,7 +2,7 @@
 title: "Gas Prices and the Macroeconomy"
 collection: working papers
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'Daniele Colombo & Francesco Toni (2024)'
+excerpt: 'with Francesco Toni (2024)'
 venue: 
 paperurl:
 citation:
