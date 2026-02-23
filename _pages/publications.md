@@ -11,14 +11,14 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+{%- assign working_papers = site.publications | where_exp: "p", "p.status != 'wip'" -%}
+{%- for post in working_papers reversed -%}
   {% include archive-single.html %}
-{% endfor %}
+{%- endfor -%}
 
 ## Work in progress
 
-<ul>
-  <li><strong>Project title 1</strong> (with Coauthor A, Coauthor B) — <em>in progress</em></li>
-  <li><strong>Project title 2</strong> (with Coauthor C) — <em>in progress</em></li>
-  <li><strong>Project title 3</strong> — <em>in progress</em></li>
-</ul>
+{%- assign wip_papers = site.publications | where: "status", "wip" -%}
+{%- for post in wip_papers reversed -%}
+  {% include archive-single.html %}
+{%- endfor -%}
