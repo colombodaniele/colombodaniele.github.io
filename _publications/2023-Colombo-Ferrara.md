@@ -2,7 +2,7 @@
 title: "Weather Shocks and Sectoral Dynamics in European Economies"
 collection: working papers
 permalink: /publication/2009-10-01-paper-title-number-2
-excerpt: 'Daniele Colombo & Laurent Ferrara (2024)'
+excerpt: 'with Laurent Ferrara (2024)'
 venue: 
 paperurl:
 citation:
