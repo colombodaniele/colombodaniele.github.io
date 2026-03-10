@@ -1,7 +1,7 @@
 ---
 title: "Identification or Propagation? Shock-Based Weak-IV Diagnostics and Bootstrap Inference for Instrumented VARs"
 collection: publications
-permalink: /papers/Colombo2025-identification-or-propagation/
+permalink: /paper/Colombo2025-identification-or-propagation/
 excerpt: "(2025)"
 status: wip
 ---
