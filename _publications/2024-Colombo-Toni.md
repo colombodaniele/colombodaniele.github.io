@@ -1,7 +1,7 @@
 ---
 title: "Gas Prices and the Macroeconomy"
 collection: working papers
-permalink: /papers/ColomboToni2025
+permalink: /paper/ColomboToni2025
 excerpt: 'with Francesco Toni (2024)'
 venue: 
 paperurl:
