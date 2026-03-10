@@ -1,7 +1,7 @@
 ---
 title: "Weather Shocks and Sectoral Dynamics in European Economies"
 collection: working papers
-permalink: /publication/ColomboFerrara2025
+permalink: /paper/ColomboFerrara2025
 excerpt: 'with Laurent Ferrara (2024)'
 venue: 
 paperurl:
