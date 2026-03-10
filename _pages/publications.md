@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Working papers"
-permalink: /publications/
+permalink: /papers/
 author_profile: true
 ---
 
