@@ -18,6 +18,8 @@ My research focuses on applied macroeconomics, energy, climate and networks.
 Updates
 ------
 
+**2026/03/12:** I presented my work on sectoral impacts of exposure to abnormal weather realizations at the [Research Conference on Climate- and Nature-Related Risks in the Economic and Financial System](https://www.banque-france.fr/en/events/research-conference-climate-and-nature-related-risks-economic-and-financial-system)). You can find my slides [here](https://colombodaniele.github.io/files/SLIDES_COLOMBO_Weather_Shocks_and_Sectoral_Dynamics_in_European_Economies.pdf).
+
 **2025/12/01:** Next week I will be attending the [CEPR Symposium](https://cepr.org/events/event-series/cepr-paris-symposium/cepr-paris-symposium-2025).
 
 **2025/11/03:** In two weeks, I will be presenting my research at the [London Macro PhD Workshop](https://sites.google.com/view/london-macro-phd-workshop/home/) at the London School of Economics.
