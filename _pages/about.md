@@ -18,6 +18,12 @@ My research focuses on applied macroeconomics, energy, climate and networks.
 Updates
 ------
 
+**2026/06/22:** This week I will be presenting my work on identifying impulse responses with instruments at the [IAAE Annual Conference 2026](https://iaae2026.pages.dev/) in Lisbon. You can find my slides [here](https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments.pdf).
+
+**2026/05/25:** Next week I will be attending the [A Bayesian Approach to Identification of Structural VAR Models Summer School](https://www.lancaster.ac.uk/events/topics-in-empirical-macroeconomics-summer-school/) taught by Christiane Baumeister at Lancaster University.
+
+**2026/05/18:** Next week I will be presenting my work on identifying impulse responses with instruments at the [2026 RCEA International Conference in Economics, Econometrics, and Finance](https://www.rcea.world/events/forthcoming-events/the-2026-rcea-international-conference) in Madrid. You can find my slides [here](https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments.pdf).
+
 **2026/03/12:** I presented my work on sectoral impacts of exposure to abnormal weather realizations at the [Research Conference on Climate- and Nature-Related Risks in the Economic and Financial System](https://www.banque-france.fr/en/events/research-conference-climate-and-nature-related-risks-economic-and-financial-system)). You can find my slides [here](https://colombodaniele.github.io/files/SLIDES_COLOMBO_Weather_Shocks_and_Sectoral_Dynamics_in_European_Economies.pdf).
 
 **2025/12/01:** Next week I will be attending the [CEPR Symposium](https://cepr.org/events/event-series/cepr-paris-symposium/cepr-paris-symposium-2025).
