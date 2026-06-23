@@ -1,12 +1,12 @@
 ---
-title: "Identification or Propagation? Shock-Based Weak-IV Diagnostics and Bootstrap Inference for Instrumented VARs"
+title: "Shocks or Shifts? Identifying Macroeconomic Impulse Responses with Instruments"
 collection: publications
 permalink: /paper/Colombo2025-identification-or-propagation/
 excerpt: "(2025)"
 status: wip
 ---
 
-This paper documents an inconsistency in prevailing practice: instrument relevance in structural VARs is often assessed using an anchor equation’s reduced-form residual rather than the identified structural shock. As a result, the test is anchor-dependent and does not directly target the moment condition underlying identification. I propose a shock-based, anchor-independent weak instrument test based on the usual $F$-statistic—together with a bootstrap procedure that normalizes scale on the recovered shock—that yields invariant and stronger diagnostics, as well as typically tighter inference. I also show that when SVARs produce “structural’’ IRFs that are statistically indistinguishable from reduced-form dynamic multipliers, the instrument is likely weak, mis-specified, or simply superfluous.
+This paper studies how normalization choices shape identification and inference for instrumented impulse responses. Point-estimate IRFs are often treated as rescalable across normalizations, but this is not true for inference: different normalizations define different estimands and different weak-instrument problems. I show that standard SVAR-IV and LP-IV estimators can be read in two ways. Under structural-shock assumptions, they estimate impulse responses to latent shocks, normalized through an observed impact variable. Under weaker reduced-form IV assumptions, the same ratio estimators instead identify causal responses to exogenous shifts in that observed variable. This distinction matters empirically. Impact-normalized inference can become weak when the instrument has little covariance with the chosen normalization variable, even if it is informative about the latent shock. One-standard-deviation IRFs use the structural-shock restrictions more directly, avoid choosing an anchor variable, and can deliver substantially shorter intervals under weak normalization. I therefore propose a shock-based relevance diagnostic that targets the primitive relevance condition for the latent shock rather than an arbitrary normalization equation.
 
 <!-- [Download preliminary draft here](https://colombodaniele.github.io/files/COLOMBO_2025_Identification_or_propagation.pdf) -->
 
