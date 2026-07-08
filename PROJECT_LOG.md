@@ -20,3 +20,10 @@
 - Files touched: _publications/2024-Colombo-Toni.md, _includes/head.html, files/Colombo_Toni_2025_Gas_Prices_and_the_Macroeconomy.pdf, PROJECT_LOG.md.
 - Commands/tests run + results: Select-String metadata source check passed; targeted PowerShell smoke check passed for front matter, title, authors, DOI, PDF link, head meta tags, and PDF existence; bundle exec jekyll build --trace failed because bundle is not recognized; where.exe ruby/bundle/jekyll found no executables.
 - Follow-ups / TODOs: Run bundle exec jekyll build in an environment with Ruby/Bundler/Jekyll before publishing if you want full rendered-site validation; update EconStor/RePEc/LEM metadata upstream.
+
+### 2026-07-08 19:06:30 +02:00
+- What changed: Pushed the Google Scholar metadata update to GitHub Pages and verified the live page.
+- Why: Confirmed the deployed HTML now exposes the corrected citation metadata for Scholar crawling.
+- Files touched: PROJECT_LOG.md.
+- Commands/tests run + results: git push origin master succeeded; live page returned HTTP 200; live HTML contains citation_title, citation_author, citation_publication_date, citation_doi, citation_pdf_url, and citation_abstract_html_url; live HTML contains the new PDF filename and no longer contains the old paper PDF filename.
+- Follow-ups / TODOs: Update EconStor/RePEc/LEM records so Scholar search stops preferring the old title from external repositories.
