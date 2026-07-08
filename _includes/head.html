@@ -3,6 +3,17 @@
 <meta charset="utf-8">
 
 {% include seo.html %}
+{% if page.citation_title %}
+<!-- Google Scholar parses citation_* tags to identify publication metadata. -->
+<meta name="citation_title" content="{{ page.citation_title | markdownify | strip_html | strip_newlines | escape_once }}">
+{% for citation_author in page.citation_authors %}
+<meta name="citation_author" content="{{ citation_author | escape_once }}">
+{% endfor %}
+{% if page.citation_publication_date %}<meta name="citation_publication_date" content="{{ page.citation_publication_date }}">{% endif %}
+{% if page.citation_doi %}<meta name="citation_doi" content="{{ page.citation_doi | escape_once }}">{% endif %}
+{% if page.citation_pdf_url %}<meta name="citation_pdf_url" content="{{ page.citation_pdf_url | escape_once }}">{% endif %}
+{% if page.citation_abstract_html_url %}<meta name="citation_abstract_html_url" content="{{ page.citation_abstract_html_url | escape_once }}">{% endif %}
+{% endif %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
