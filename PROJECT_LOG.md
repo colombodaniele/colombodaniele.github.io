@@ -11,7 +11,7 @@
 - What changed: Added Google Scholar citation metadata for Gas Prices and the Macroeconomy, updated the paper download link to a title-matching PDF filename, and copied the current PDF to that new filename.
 - Why: Scholar public search was preferring older EconStor/RePEc metadata under the previous title; explicit citation_* tags give Scholar a stronger current metadata source.
 - Files touched: _publications/2024-Colombo-Toni.md, _includes/head.html, files/Colombo_Toni_2025_Gas_Prices_and_the_Macroeconomy.pdf, PROJECT_LOG.md.
-- Commands/tests run + results: Pending smoke checks after edit.
+- Commands/tests run + results: Targeted source smoke check passed for weather title/authors/DOI/PDF URL, Shocks or Shifts title/author/no-PDF decision, and removal of bottom duplicate suggested-citation lines from gas and weather pages.
 - Follow-ups / TODOs: Update EconStor/RePEc/LEM metadata upstream so Scholar stops ranking the old title as the main version.
 
 ### 2026-07-08 19:00:54 +02:00
@@ -27,3 +27,10 @@
 - Files touched: PROJECT_LOG.md.
 - Commands/tests run + results: git push origin master succeeded; live page returned HTTP 200; live HTML contains citation_title, citation_author, citation_publication_date, citation_doi, citation_pdf_url, and citation_abstract_html_url; live HTML contains the new PDF filename and no longer contains the old paper PDF filename.
 - Follow-ups / TODOs: Update EconStor/RePEc/LEM records so Scholar search stops preferring the old title from external repositories.
+
+### 2026-07-08 19:15:21 +02:00
+- What changed: Added Google Scholar citation metadata for the weather paper and the Shocks or Shifts WIP page; removed bottom duplicate suggested-citation lines where top recommended citations are generated from front matter.
+- Why: Keep Scholar-readable metadata consistent across visible research pages while avoiding duplicate visible citation text on publication pages.
+- Files touched: _publications/2023-Colombo-Ferrara.md, _publications/2025-Colombo.md, _publications/2024-Colombo-Toni.md, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted source smoke check passed for weather title/authors/DOI/PDF URL, Shocks or Shifts title/author/no-PDF decision, and removal of bottom duplicate suggested-citation lines from gas and weather pages.
+- Follow-ups / TODOs: Add citation_pdf_url for the Shocks or Shifts WIP page only after the public PDF title/content matches that title.

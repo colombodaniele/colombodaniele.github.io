@@ -24,6 +24,4 @@ We identify supply and demand shocks to the real price of natural gas leveraging
 [Download instruments here](http://colombodaniele.github.io/files/Gas_Instruments_Colombo_Toni_2025.xlsx)
 [Download implied shocks here](http://colombodaniele.github.io/files/Gas_Shocks_Colombo_Toni_2025.xlsx)
 
-Suggested citation: Colombo D., & Toni F. (2025) "Gas Prices and the Macroeconomy"
-
 ![Figure4](/images/Contribution of Gasp on gasp.png)

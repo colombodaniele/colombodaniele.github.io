@@ -3,9 +3,17 @@ title: "Weather Shocks and Sectoral Dynamics in European Economies"
 collection: working papers
 permalink: /paper/ColomboFerrara2025
 excerpt: 'with Laurent Ferrara (2024)'
-venue: 
-paperurl:
-citation:
+venue:
+paperurl: https://ssrn.com/abstract=5491826
+citation: 'Colombo D., & Ferrara L. (2024) "Weather Shocks and Sectoral Dynamics in European Economies"'
+citation_title: "Weather Shocks and Sectoral Dynamics in European Economies"
+citation_authors:
+  - "Colombo, Daniele"
+  - "Ferrara, Laurent"
+citation_publication_date: "2024"
+citation_doi: "10.2139/ssrn.5491826"
+citation_pdf_url: "https://colombodaniele.github.io/files/Weather_Shocks_and_Sectoral_Dynamics_in_European_Economies___COLOMBO__FERRARA_2025.pdf"
+citation_abstract_html_url: "https://colombodaniele.github.io/paper/ColomboFerrara2025"
 ---
 
 <!-- **📝 R&R: 2024-02-05** -->
@@ -14,7 +22,5 @@ This paper investigates the dynamic effects of weather shocks on economic activi
 
 [Download paper here](https://colombodaniele.github.io/files/Weather_Shocks_and_Sectoral_Dynamics_in_European_Economies___COLOMBO__FERRARA_2025.pdf)
 [Download weather shocks here](http://colombodaniele.github.io/files/weather_shocks__lights252015__num_days_tot_quantity__0.95_perc.xlsx)
-
-Suggested citation: Colombo D., & Ferrara L. (2024) "Weather Shocks and Sectoral Dynamics in European Economies"
 
 ![Figure3](/images/Figure_ColomboFerrara2025.png)
