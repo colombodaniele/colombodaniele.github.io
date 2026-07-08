@@ -34,3 +34,10 @@
 - Files touched: _publications/2023-Colombo-Ferrara.md, _publications/2025-Colombo.md, _publications/2024-Colombo-Toni.md, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted source smoke check passed for weather title/authors/DOI/PDF URL, Shocks or Shifts title/author/no-PDF decision, and removal of bottom duplicate suggested-citation lines from gas and weather pages.
 - Follow-ups / TODOs: Add citation_pdf_url for the Shocks or Shifts WIP page only after the public PDF title/content matches that title.
+
+### 2026-07-08 19:20:49 +02:00
+- What changed: Verified the deployed Scholar metadata updates for gas, weather, and Shocks or Shifts pages after GitHub Pages rebuilt.
+- Why: Confirmed the live site, not only source files, reflects the citation metadata and duplicate citation cleanup.
+- Files touched: PROJECT_LOG.md.
+- Commands/tests run + results: git push origin master succeeded for commit 98852f4; raw GitHub source check confirmed weather metadata; YAML front matter parser check passed for all three publication pages; live pages returned HTTP 200; live gas/weather/WIP pages contain expected citation_title metadata; gas and weather no longer contain bottom Suggested citation text; WIP has no citation_pdf_url.
+- Follow-ups / TODOs: Add a WIP citation_pdf_url only after the public draft PDF title/content is updated to Shocks or Shifts.
