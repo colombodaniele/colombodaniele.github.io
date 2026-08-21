@@ -41,3 +41,17 @@
 - Files touched: PROJECT_LOG.md.
 - Commands/tests run + results: git push origin master succeeded for commit 98852f4; raw GitHub source check confirmed weather metadata; YAML front matter parser check passed for all three publication pages; live pages returned HTTP 200; live gas/weather/WIP pages contain expected citation_title metadata; gas and weather no longer contain bottom Suggested citation text; WIP has no citation_pdf_url.
 - Follow-ups / TODOs: Add a WIP citation_pdf_url only after the public draft PDF title/content is updated to Shocks or Shifts.
+
+### 2026-08-21 11:18:16 +02:00
+- What changed: Updated the Gas Prices and the Macroeconomy website abstract to match the current PDF.
+- Why: Keep the Research page aligned with the August 1, 2026 paper draft.
+- Files touched: _publications/2024-Colombo-Toni.md, PROJECT_LOG.md.
+- Commands/tests run + results: Python/pypdf comparison passed after normalizing PDF ligatures and line-break hyphenation; the website abstract matches the PDF abstract.
+- Follow-ups / TODOs: Add the requested Orthogonalizing Shocks draft-coming-soon research entry after confirming its exact title and citation details.
+
+### 2026-08-21 11:40:20 +02:00
+- What changed: Added the Orthogonalizing Proxy-Identified Shocks work-in-progress entry; replaced the legacy Gas Prices PDF with the current version; changed the Gas Prices download and citation metadata to the established legacy PDF URL.
+- Why: Display the new preliminary project while preserving a stable, widely shared paper URL that now serves the current 112-page version.
+- Files touched: _publications/2026-Colombo-Ragusa.md, _publications/2024-Colombo-Toni.md, files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf, PROJECT_LOG.md.
+- Commands/tests run + results: SHA-256 comparison passed for legacy and current PDF copies; source check passed for both uses of the stable URL and the WIP entry title/status/text; git diff --check passed with only existing line-ending warnings.
+- Follow-ups / TODOs: Keep the legacy Gas Prices filename in place for future revisions; replace its contents whenever a newer version should become the public default.
