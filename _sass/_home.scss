@@ -1,0 +1,46 @@
+/* Home-page-only typography keeps the existing introduction and updates easy to scan. */
+.home-page .page__content {
+  > h2:first-child + p {
+    max-width: 44rem;
+    margin-top: 1rem;
+    font-size: $type-size-5;
+    line-height: 1.55;
+  }
+
+  > h2:nth-of-type(2) {
+    margin-top: 2.75rem;
+  }
+
+  /* Present existing dated update paragraphs as a compact timeline without changing their text. */
+  > h2:nth-of-type(2) ~ p {
+    position: relative;
+    margin: 0;
+    padding: 0.9rem 0 0.9rem 7.25rem;
+    border-top: 1px solid $border-color;
+    line-height: 1.55;
+    text-indent: 0;
+
+    > strong:first-child {
+      position: absolute;
+      top: 0.9rem;
+      left: 0;
+      color: $gray;
+      font-family: $sans-serif;
+      font-size: $type-size-7;
+      letter-spacing: 0.03em;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media (max-width: 37.5em) {
+  .home-page .page__content > h2:nth-of-type(2) ~ p {
+    padding: 0.85rem 0;
+
+    > strong:first-child {
+      position: static;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+  }
+}

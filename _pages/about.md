@@ -3,6 +3,8 @@ permalink: /
 title: "Home"
 excerpt: ""
 author_profile: true
+home_layout: true
+hide_title: true
 redirect_from: 
   - /about/
   - /about.html

@@ -76,3 +76,10 @@
 - Files touched: _pages/publications.md, _includes/research-card.html, _sass/_research.scss, PROJECT_LOG.md.
 - Commands/tests run + results: PowerShell checks passed for removal of the requested text and badge fallback, preservation of WIP labels, and presence of the native expandable-control markup/styles; git diff --check passed with existing line-ending warnings only.
 - Follow-ups / TODOs: Commit and push this follow-up, then visually test ellipsis expansion and collapse on the deployed page.
+
+### 2026-08-21 13:52:02 +02:00
+- What changed: Added a Home-page-only layout flag and stylesheet that hide the redundant visible Home heading, enlarge the existing introduction, and render the unchanged Updates entries as a responsive date-aligned timeline.
+- Why: Improve landing-page hierarchy and scanability without rewriting its content or changing the shared layout for other pages.
+- Files touched: _pages/about.md, _layouts/single.html, _sass/_home.scss, assets/css/main.scss, PROJECT_LOG.md.
+- Commands/tests run + results: PowerShell structural checks passed for Home layout flags, scoped title hiding, timeline selectors, mobile styles, and stylesheet import; git diff --check passed with existing line-ending warnings only. Ruby/Bundler/Jekyll remain unavailable on PATH, so no rendered local build was possible.
+- Follow-ups / TODOs: Commit and push the Home-page visual update, then inspect the deployed Home page at desktop and mobile widths.
