@@ -55,3 +55,10 @@
 - Files touched: _publications/2026-Colombo-Ragusa.md, _publications/2024-Colombo-Toni.md, files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf, PROJECT_LOG.md.
 - Commands/tests run + results: SHA-256 comparison passed for legacy and current PDF copies; source check passed for both uses of the stable URL and the WIP entry title/status/text; git diff --check passed with only existing line-ending warnings.
 - Follow-ups / TODOs: Keep the legacy Gas Prices filename in place for future revisions; replace its contents whenever a newer version should become the public default.
+
+### 2026-08-21 12:03:08 +02:00
+- What changed: Updated the Shocks or Shifts website abstract from the latest `MAIN_normalization.tex` manuscript source; retained the existing title.
+- Why: Keep the Work in Progress page aligned with the current Overleaf draft's framing of observed shifts, latent shocks, normalization, and inference.
+- Files touched: _publications/2025-Colombo.md, PROJECT_LOG.md.
+- Commands/tests run + results: Python comparison passed after normalizing LaTeX en-dash punctuation and whitespace; git diff --check passed with only existing line-ending warnings.
+- Follow-ups / TODOs: Commit and push this abstract update when ready.
