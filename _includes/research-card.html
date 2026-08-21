@@ -1,0 +1,35 @@
+{% comment %}
+  Research-page-only card: keep the generic archive template unchanged for other site sections.
+{% endcomment %}
+<article class="research-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
+  <div class="research-card__header">
+    <h3 class="research-card__title" itemprop="headline">
+      <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+    </h3>
+    <span class="research-card__status{% if post.status == 'wip' %} research-card__status--wip{% endif %}">
+      {{ post.research_status | default: "Working paper" }}
+    </span>
+  </div>
+
+  {% if post.excerpt %}
+    <p class="research-card__meta">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+  {% endif %}
+
+  {% assign research_summary = post.content | markdownify | strip_html | strip_newlines | truncatewords: 42 %}
+  {% if research_summary != empty %}
+    <p class="research-card__summary" itemprop="description">{{ research_summary }}</p>
+  {% endif %}
+
+  <nav class="research-card__actions" aria-label="Links for {{ post.title }}">
+    {% if post.citation_pdf_url %}
+      <a href="{{ post.citation_pdf_url }}">Paper</a>
+    {% endif %}
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}" rel="external">SSRN</a>
+    {% endif %}
+    {% if post.slides_url %}
+      <a href="{{ post.slides_url }}">Slides</a>
+    {% endif %}
+    <a href="{{ post.url | relative_url }}" rel="permalink">Details</a>
+  </nav>
+</article>

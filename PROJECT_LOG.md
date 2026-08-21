@@ -62,3 +62,10 @@
 - Files touched: _publications/2025-Colombo.md, PROJECT_LOG.md.
 - Commands/tests run + results: Python comparison passed after normalizing LaTeX en-dash punctuation and whitespace; git diff --check passed with only existing line-ending warnings.
 - Follow-ups / TODOs: Commit and push this abstract update when ready.
+
+### 2026-08-21 12:49:06 +02:00
+- What changed: Rebuilt the Research page as a dedicated, compact paper-card list with distinct Working Papers and Work in Progress sections; added status badges, abstract previews, and available Paper/SSRN/Slides/Details actions; standardized research-card metadata without changing the Gas Prices entry's visible 2024 year.
+- Why: Replace the visually uneven generic archive layout with a clearer research-specific hierarchy while preserving the generic archive template for other site sections.
+- Files touched: _pages/publications.md, _includes/research-card.html, _sass/_research.scss, assets/css/main.scss, _publications/2023-Colombo-Ferrara.md, _publications/2024-Colombo-Toni.md, _publications/2025-Colombo.md, _publications/2026-Colombo-Ragusa.md, PROJECT_LOG.md.
+- Commands/tests run + results: PowerShell static checks passed for card fields, stable Gas Prices year, action conditions, stylesheet import, and valid theme variables; git diff --check passed with existing line-ending warnings only. Ruby/Bundler/Jekyll are not installed on PATH, so a rendered local build was not available.
+- Follow-ups / TODOs: Commit and push the Research redesign, then visually check the deployed `/papers/` page on desktop and mobile. If reverted after commit, `git revert <commit>` restores the former generic archive layout in one step.
