@@ -46,7 +46,8 @@
 }
 
 .research-card__meta,
-.research-card__summary {
+.research-card__summary,
+.research-card__full-summary {
   margin: 0.45rem 0 0;
 }
 
@@ -56,6 +57,46 @@
 }
 
 .research-card__summary {
+  max-width: 52rem;
+  font-size: $type-size-6;
+  line-height: 1.55;
+}
+
+/* The native details element makes each abstract preview expandable without JavaScript. */
+.research-card__more {
+  display: inline;
+
+  summary {
+    display: inline;
+    color: $link-color;
+    cursor: pointer;
+    font-weight: bold;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+  }
+
+  .research-card__collapse {
+    display: none;
+  }
+
+  &[open] {
+    display: block;
+    margin-top: 0.45rem;
+
+    .research-card__expand {
+      display: none;
+    }
+
+    .research-card__collapse {
+      display: inline;
+    }
+  }
+}
+
+.research-card__full-summary {
   max-width: 52rem;
   font-size: $type-size-6;
   line-height: 1.55;

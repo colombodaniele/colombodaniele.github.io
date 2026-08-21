@@ -5,8 +5,6 @@ permalink: /papers/
 author_profile: true
 ---
 
-Current research in macroeconometrics, energy, and climate economics.
-
 {% include base_path %}
 
 ## Working papers

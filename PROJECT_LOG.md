@@ -69,3 +69,10 @@
 - Files touched: _pages/publications.md, _includes/research-card.html, _sass/_research.scss, assets/css/main.scss, _publications/2023-Colombo-Ferrara.md, _publications/2024-Colombo-Toni.md, _publications/2025-Colombo.md, _publications/2026-Colombo-Ragusa.md, PROJECT_LOG.md.
 - Commands/tests run + results: PowerShell static checks passed for card fields, stable Gas Prices year, action conditions, stylesheet import, and valid theme variables; git diff --check passed with existing line-ending warnings only. Ruby/Bundler/Jekyll are not installed on PATH, so a rendered local build was not available.
 - Follow-ups / TODOs: Commit and push the Research redesign, then visually check the deployed `/papers/` page on desktop and mobile. If reverted after commit, `git revert <commit>` restores the former generic archive layout in one step.
+
+### 2026-08-21 13:08:56 +02:00
+- What changed: Removed the Research-page introduction and repeated Working Paper badges; made truncated abstract previews expandable through a native ellipsis control and collapsible with Show less.
+- Why: Reduce repeated visual labels and let visitors read full abstracts on the Research page without leaving it or loading JavaScript.
+- Files touched: _pages/publications.md, _includes/research-card.html, _sass/_research.scss, PROJECT_LOG.md.
+- Commands/tests run + results: PowerShell checks passed for removal of the requested text and badge fallback, preservation of WIP labels, and presence of the native expandable-control markup/styles; git diff --check passed with existing line-ending warnings only.
+- Follow-ups / TODOs: Commit and push this follow-up, then visually test ellipsis expansion and collapse on the deployed page.

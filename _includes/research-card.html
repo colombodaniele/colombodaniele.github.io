@@ -6,18 +6,32 @@
     <h3 class="research-card__title" itemprop="headline">
       <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
     </h3>
-    <span class="research-card__status{% if post.status == 'wip' %} research-card__status--wip{% endif %}">
-      {{ post.research_status | default: "Working paper" }}
-    </span>
+    {% if post.status == 'wip' %}
+      <span class="research-card__status research-card__status--wip">{{ post.research_status }}</span>
+    {% endif %}
   </div>
 
   {% if post.excerpt %}
     <p class="research-card__meta">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
   {% endif %}
 
-  {% assign research_summary = post.content | markdownify | strip_html | strip_newlines | truncatewords: 42 %}
-  {% if research_summary != empty %}
-    <p class="research-card__summary" itemprop="description">{{ research_summary }}</p>
+  {% assign research_full = post.content | split: '[Download' | first | markdownify | strip_html | strip_newlines %}
+  {% assign research_word_count = research_full | number_of_words %}
+  {% if research_full != empty %}
+    <div class="research-card__abstract" itemprop="description">
+      {% if research_word_count > 42 %}
+        <span class="research-card__summary">{{ research_full | truncatewords: 42, "" }}</span>
+        <details class="research-card__more">
+          <summary aria-label="Show the full abstract">
+            <span class="research-card__expand">&hellip;</span>
+            <span class="research-card__collapse">Show less</span>
+          </summary>
+          <p class="research-card__full-summary">{{ research_full }}</p>
+        </details>
+      {% else %}
+        <p class="research-card__summary">{{ research_full }}</p>
+      {% endif %}
+    </div>
   {% endif %}
 
   <nav class="research-card__actions" aria-label="Links for {{ post.title }}">
