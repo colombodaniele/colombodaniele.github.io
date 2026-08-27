@@ -44,6 +44,9 @@
     {% if post.slides_url %}
       <a href="{{ post.slides_url }}">Slides</a>
     {% endif %}
+    {% if post.poster_url %}
+      <a href="{{ post.poster_url }}">Poster</a>
+    {% endif %}
     <a href="{{ post.url | relative_url }}" rel="permalink">Details</a>
   </nav>
 </article>

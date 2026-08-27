@@ -97,3 +97,10 @@
 - Files touched: _pages/about.md, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted PowerShell source check passed; git diff --check passed with existing line-ending warnings only.
 - Follow-ups / TODOs: Commit and push the wording update when ready.
+
+### 2026-08-27 19:59:54 +02:00
+- What changed: Added a Poster action to the Gas Prices research card using the existing poster PDF.
+- Why: Make the poster as directly accessible from the Research page as the slides.
+- Files touched: _publications/2024-Colombo-Toni.md, _includes/research-card.html, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted PowerShell check passed for the Gas Prices poster URL, conditional card action, and local poster PDF existence; git diff --check passed with existing line-ending warnings only.
+- Follow-ups / TODOs: Commit and push the Research-card poster action when ready.
