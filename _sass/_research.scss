@@ -68,14 +68,24 @@
 
   summary {
     display: inline;
-    color: $link-color;
+    color: $text-color;
     cursor: pointer;
-    font-weight: bold;
     list-style: none;
 
     &::-webkit-details-marker {
       display: none;
     }
+
+    &:focus {
+      outline: 2px solid mix($link-color, #fff, 45%);
+      outline-offset: 2px;
+    }
+  }
+
+  .research-card__expand,
+  .research-card__collapse {
+    color: $link-color;
+    font-weight: bold;
   }
 
   .research-card__collapse {
@@ -84,6 +94,7 @@
 
   &[open] {
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
 
     summary {

@@ -4,6 +4,7 @@ permalink: /paper/ColomboRagusa2026
 excerpt: "with Giuseppe Ragusa (2026)"
 status: wip
 research_status: "Draft coming soon"
+research_detail: true
 ---
 
 Draft coming soon.

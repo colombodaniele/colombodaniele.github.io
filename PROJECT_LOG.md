@@ -125,3 +125,10 @@
 - Files touched: _layouts/single.html, _includes/research-detail-header.html, _sass/_research.scss, _publications/2023-Colombo-Ferrara.md, _publications/2024-Colombo-Toni.md, _publications/2025-Colombo.md, _publications/2026-Colombo-Ragusa.md, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted PowerShell validation passed for all four shared detail flags, structured resources, absence of inline download links, layout wiring, styles, and all referenced local files; git diff --check passed with no whitespace errors. Ruby/Bundler/Jekyll remain unavailable on PATH, so no rendered local build was possible.
 - Follow-ups / TODOs: Commit and push the shared detail-page redesign, then visually inspect each deployed paper page.
+
+### 2026-08-27 20:42:06 +02:00
+- What changed: Refined the expandable abstract control so preview text uses the normal body colour, only the ellipsis and Show less controls use the link colour, and the expanded control does not stretch across the card.
+- Why: Match the normal abstract typography and remove the distracting full-row focus/control appearance in the expanded state.
+- Files touched: _sass/_research.scss, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted PowerShell stylesheet check passed for body-coloured preview text, link-coloured controls, and non-stretching open-state alignment; git diff --check passed with existing line-ending warnings only.
+- Follow-ups / TODOs: Commit and push the abstract-control styling refinement, then visually check the closed and open states on the deployed Research page.
