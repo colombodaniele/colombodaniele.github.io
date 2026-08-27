@@ -104,3 +104,10 @@
 - Files touched: _publications/2024-Colombo-Toni.md, _includes/research-card.html, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted PowerShell check passed for the Gas Prices poster URL, conditional card action, and local poster PDF existence; git diff --check passed with existing line-ending warnings only.
 - Follow-ups / TODOs: Commit and push the Research-card poster action when ready.
+
+### 2026-08-27 20:04:32 +02:00
+- What changed: Fixed expandable Research-card abstracts to use only the rendered first abstract paragraph and reveal only the text after the preview, rather than repeating the beginning and including page-level download links.
+- Why: The previous expansion duplicated the preview and exposed concatenated page action labels.
+- Files touched: _includes/research-card.html, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted PowerShell check passed for first-paragraph extraction, 42-word preview segmentation, remaining-text expansion, and absence of the old duplicated-full-abstract markup; git diff --check passed with existing line-ending warnings only.
+- Follow-ups / TODOs: Commit and push the abstract-expansion fix, then visually test an ellipsis on the deployed Research page.
