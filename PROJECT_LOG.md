@@ -90,3 +90,10 @@
 - Files touched: _pages/about.md, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted PowerShell source check passed; git diff --check passed with existing line-ending warnings only.
 - Follow-ups / TODOs: Commit and push the status update when ready.
+
+### 2026-08-27 19:45:58 +02:00
+- What changed: Replaced the Home-page research-focus sentence with a concise macroeconometrics statement that names energy, climate, and production networks as application areas.
+- Why: Better reflect the current methodological focus and research portfolio.
+- Files touched: _pages/about.md, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted PowerShell source check passed; git diff --check passed with existing line-ending warnings only.
+- Follow-ups / TODOs: Commit and push the wording update when ready.
