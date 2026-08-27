@@ -1,0 +1,26 @@
+{% comment %}
+  Research-page-only metadata and resource actions: source pages provide the labels and URLs.
+{% endcomment %}
+<div class="research-detail__metadata">
+  {% if page.excerpt %}
+    <span>{{ page.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</span>
+  {% endif %}
+  {% if page.research_status %}
+    <span class="research-detail__status{% if page.status == 'wip' %} research-detail__status--wip{% endif %}">{{ page.research_status }}</span>
+  {% endif %}
+</div>
+
+{% if page.citation %}
+  <div class="research-detail__citation">
+    <span class="research-detail__citation-label">Suggested citation</span>
+    <span>{{ page.citation }}</span>
+  </div>
+{% endif %}
+
+{% if page.resources %}
+  <nav class="research-detail__resources" aria-label="Resources for {{ page.title }}">
+    {% for resource in page.resources %}
+      <a href="{{ resource.url }}"{% if resource.external %} rel="external"{% endif %}>{{ resource.label }}</a>
+    {% endfor %}
+  </nav>
+{% endif %}

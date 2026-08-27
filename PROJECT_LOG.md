@@ -118,3 +118,10 @@
 - Files touched: _includes/research-card.html, _sass/_research.scss, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted PowerShell structural check passed for the complete-abstract markup and open-state flex ordering; git diff --check passed with existing line-ending warnings only.
 - Follow-ups / TODOs: Commit and push this interaction refinement, then visually test its collapsed and expanded states on the deployed Research page.
+
+### 2026-08-27 20:32:28 +02:00
+- What changed: Added one shared research-detail header for all four paper pages, with compact status/citation blocks and resource buttons; moved each page's existing download links into structured metadata and removed the run-on inline links.
+- Why: Give every paper page the same clean format while retaining all paper, SSRN, slides, poster, data, and figure resources.
+- Files touched: _layouts/single.html, _includes/research-detail-header.html, _sass/_research.scss, _publications/2023-Colombo-Ferrara.md, _publications/2024-Colombo-Toni.md, _publications/2025-Colombo.md, _publications/2026-Colombo-Ragusa.md, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted PowerShell validation passed for all four shared detail flags, structured resources, absence of inline download links, layout wiring, styles, and all referenced local files; git diff --check passed with no whitespace errors. Ruby/Bundler/Jekyll remain unavailable on PATH, so no rendered local build was possible.
+- Follow-ups / TODOs: Commit and push the shared detail-page redesign, then visually inspect each deployed paper page.
