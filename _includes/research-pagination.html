@@ -1,0 +1,32 @@
+{% comment %}Keep research-detail navigation in the same order as the Research page.{% endcomment %}
+{% assign research_working_papers = site.publications | where_exp: "p", "p.status != 'wip'" | reverse %}
+{% assign research_wip_papers = site.publications | where: "status", "wip" | reverse %}
+{% assign research_papers = research_working_papers | concat: research_wip_papers %}
+{% assign previous_paper = false %}
+{% assign next_paper = false %}
+{% assign current_paper_found = false %}
+
+{% for paper in research_papers %}
+  {% if paper.url == page.url %}
+    {% assign current_paper_found = true %}
+  {% elsif current_paper_found and next_paper == false %}
+    {% assign next_paper = paper %}
+  {% elsif current_paper_found == false %}
+    {% assign previous_paper = paper %}
+  {% endif %}
+{% endfor %}
+
+{% if current_paper_found %}
+  <nav class="pagination" aria-label="Research paper navigation">
+    {% if previous_paper %}
+      <a href="{{ previous_paper.url | relative_url }}" class="pagination--pager" title="{{ previous_paper.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled" aria-disabled="true">{{ site.data.ui-text[site.locale].pagination_previous | default: "Previous" }}</a>
+    {% endif %}
+    {% if next_paper %}
+      <a href="{{ next_paper.url | relative_url }}" class="pagination--pager" title="{{ next_paper.title | markdownify | strip_html }}">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% else %}
+      <a href="#" class="pagination--pager disabled" aria-disabled="true">{{ site.data.ui-text[site.locale].pagination_next | default: "Next" }}</a>
+    {% endif %}
+  </nav>
+{% endif %}

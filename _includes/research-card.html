@@ -2,14 +2,9 @@
   Research-page-only card: keep the generic archive template unchanged for other site sections.
 {% endcomment %}
 <article class="research-card" itemscope itemtype="https://schema.org/ScholarlyArticle">
-  <div class="research-card__header">
-    <h3 class="research-card__title" itemprop="headline">
-      <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
-    </h3>
-    {% if post.status == 'wip' %}
-      <span class="research-card__status research-card__status--wip">{{ post.research_status }}</span>
-    {% endif %}
-  </div>
+  <h3 class="research-card__title" itemprop="headline">
+    <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+  </h3>
 
   {% if post.excerpt %}
     <p class="research-card__meta">{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>

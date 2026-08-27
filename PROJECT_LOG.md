@@ -139,3 +139,17 @@
 - Files touched: _sass/_research.scss, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted stylesheet smoke check confirmed the normal body-text and interactive-control declarations; git diff --check passed. `bundle exec jekyll build` could not run because Bundler is not installed on PATH.
 - Follow-ups / TODOs: Commit and push, then hard-refresh the deployed Research page and verify the preview is regular dark text.
+
+### 2026-08-27 21:41:10 +02:00
+- What changed: Removed the right-aligned status badges from Research-page cards, together with their unused layout and responsive styles.
+- Why: The section heading and the text in each unfinished paper card already convey the paper status without the redundant labels.
+- Files touched: _includes/research-card.html, _sass/_research.scss, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted template/stylesheet check confirmed that Research-card status badge markup and styles are absent; git diff --check passed with line-ending warnings only.
+- Follow-ups / TODOs: Commit and push, then visually confirm the two work-in-progress cards have no right-side badges.
+
+### 2026-08-27 21:42:48 +02:00
+- What changed: Added research-specific Previous/Next navigation for detail pages and enabled it only for pages marked `research_detail`.
+- Why: The generic theme navigation follows Jekyll's collection order, which differs from the order displayed on the Research page.
+- Files touched: _includes/research-pagination.html, _layouts/single.html, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted ordering check passed for Gas Prices, Weather Shocks, Orthogonalizing Shocks, then Shocks or Shifts; layout wiring check and git diff --check passed.
+- Follow-ups / TODOs: Commit and push, then open each paper detail page to verify Previous/Next follows the Research-page order.
