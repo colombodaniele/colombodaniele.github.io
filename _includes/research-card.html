@@ -22,13 +22,13 @@
   {% if research_full != empty %}
     <div class="research-card__abstract" itemprop="description">
       {% if research_word_count > 42 %}
-        <span class="research-card__summary">{{ research_words | slice: 0, 42 | join: ' ' }}</span>
         <details class="research-card__more">
           <summary aria-label="Show the full abstract">
+            <span class="research-card__summary">{{ research_words | slice: 0, 42 | join: ' ' }}</span>
             <span class="research-card__expand">&hellip;</span>
             <span class="research-card__collapse">Show less</span>
           </summary>
-          <p class="research-card__full-summary">{{ research_words | slice: 42, 1000 | join: ' ' }}</p>
+          <p class="research-card__full-summary">{{ research_full }}</p>
         </details>
       {% else %}
         <p class="research-card__summary">{{ research_full }}</p>

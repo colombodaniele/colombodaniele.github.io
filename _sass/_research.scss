@@ -83,15 +83,25 @@
   }
 
   &[open] {
-    display: block;
-    margin-top: 0.45rem;
+    display: flex;
+    flex-direction: column;
 
+    summary {
+      order: 2;
+      margin-top: 0.45rem;
+    }
+
+    .research-card__summary,
     .research-card__expand {
       display: none;
     }
 
     .research-card__collapse {
       display: inline;
+    }
+
+    .research-card__full-summary {
+      order: 1;
     }
   }
 }

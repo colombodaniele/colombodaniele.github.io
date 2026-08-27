@@ -111,3 +111,10 @@
 - Files touched: _includes/research-card.html, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted PowerShell check passed for first-paragraph extraction, 42-word preview segmentation, remaining-text expansion, and absence of the old duplicated-full-abstract markup; git diff --check passed with existing line-ending warnings only.
 - Follow-ups / TODOs: Commit and push the abstract-expansion fix, then visually test an ellipsis on the deployed Research page.
+
+### 2026-08-27 20:24:35 +02:00
+- What changed: Reworked the Research-card abstract control so its closed state shows a preview plus ellipsis, while its open state replaces that preview with the complete abstract and places Show less after it.
+- Why: Avoid the visually disconnected remainder fragment shown above Show less in the prior expansion design.
+- Files touched: _includes/research-card.html, _sass/_research.scss, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted PowerShell structural check passed for the complete-abstract markup and open-state flex ordering; git diff --check passed with existing line-ending warnings only.
+- Follow-ups / TODOs: Commit and push this interaction refinement, then visually test its collapsed and expanded states on the deployed Research page.
