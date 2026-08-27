@@ -68,8 +68,10 @@
 
   summary {
     display: inline;
-    color: $text-color;
+    /* Override the theme's disclosure-link treatment for the abstract preview. */
+    color: $text-color !important;
     cursor: pointer;
+    font-weight: normal !important;
     list-style: none;
 
     &::-webkit-details-marker {
@@ -84,8 +86,8 @@
 
   .research-card__expand,
   .research-card__collapse {
-    color: $link-color;
-    font-weight: bold;
+    color: $link-color !important;
+    font-weight: bold !important;
   }
 
   .research-card__collapse {

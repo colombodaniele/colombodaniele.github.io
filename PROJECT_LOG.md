@@ -132,3 +132,10 @@
 - Files touched: _sass/_research.scss, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted PowerShell stylesheet check passed for body-coloured preview text, link-coloured controls, and non-stretching open-state alignment; git diff --check passed with existing line-ending warnings only.
 - Follow-ups / TODOs: Commit and push the abstract-control styling refinement, then visually check the closed and open states on the deployed Research page.
+
+### 2026-08-27 20:49:27 +02:00
+- What changed: Strengthened the abstract-preview CSS cascade so theme styles cannot make the collapsed summary blue or bold; the ellipsis and Show less remain blue and bold.
+- Why: The deployed card still inherited a broader disclosure-control style despite the prior scoped rule.
+- Files touched: _sass/_research.scss, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted stylesheet smoke check confirmed the normal body-text and interactive-control declarations; git diff --check passed. `bundle exec jekyll build` could not run because Bundler is not installed on PATH.
+- Follow-ups / TODOs: Commit and push, then hard-refresh the deployed Research page and verify the preview is regular dark text.
