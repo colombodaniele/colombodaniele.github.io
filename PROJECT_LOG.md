@@ -83,3 +83,10 @@
 - Files touched: _pages/about.md, _layouts/single.html, _sass/_home.scss, assets/css/main.scss, PROJECT_LOG.md.
 - Commands/tests run + results: PowerShell structural checks passed for Home layout flags, scoped title hiding, timeline selectors, mobile styles, and stylesheet import; git diff --check passed with existing line-ending warnings only. Ruby/Bundler/Jekyll remain unavailable on PATH, so no rendered local build was possible.
 - Follow-ups / TODOs: Commit and push the Home-page visual update, then inspect the deployed Home page at desktop and mobile widths.
+
+### 2026-08-27 19:41:36 +02:00
+- What changed: Updated the Home-page About me line from fourth-year to fifth-year Ph.D. student.
+- Why: Keep the academic status current.
+- Files touched: _pages/about.md, PROJECT_LOG.md.
+- Commands/tests run + results: Targeted PowerShell source check passed; git diff --check passed with existing line-ending warnings only.
+- Follow-ups / TODOs: Commit and push the status update when ready.
