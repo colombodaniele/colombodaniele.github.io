@@ -153,3 +153,10 @@
 - Files touched: _includes/research-pagination.html, _layouts/single.html, PROJECT_LOG.md.
 - Commands/tests run + results: Targeted ordering check passed for Gas Prices, Weather Shocks, Orthogonalizing Shocks, then Shocks or Shifts; layout wiring check and git diff --check passed.
 - Follow-ups / TODOs: Commit and push, then open each paper detail page to verify Previous/Next follows the Research-page order.
+
+### 2026-09-11
+- What changed: Replaced the legacy Gas Price Shocks PDF with the current 2026-09-11 version while retaining its existing public filename.
+- Why: Keep the established download URL unchanged while serving the updated paper.
+- Files touched: files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf, PROJECT_LOG.md.
+- Commands/tests run + results: Source-to-target SHA-256 comparison passed (4F899E2B26B15C6CF033DDBF1C913320508C60526CEC40311AB2B79A2CECA697); target PDF header verified as %PDF-.
+- Follow-ups / TODOs: Push the commit and confirm the deployed legacy URL serves the updated PDF.
