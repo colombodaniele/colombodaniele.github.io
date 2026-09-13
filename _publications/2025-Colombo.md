@@ -13,9 +13,12 @@ citation_authors:
 citation_publication_date: "2025"
 citation_abstract_html_url: "https://colombodaniele.github.io/paper/Colombo2025-identification-or-propagation/"
 slides_url: "https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments.pdf"
+slides_10min_url: "https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments_10min.pdf"
 resources:
   - label: "Slides"
     url: "https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments.pdf"
+  - label: "10-min slides"
+    url: "https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments_10min.pdf"
 ---
 
 When macroeconomists use instruments, do they seek to identify latent structural shocks or exogenous shifts in observed variables? This paper clarifies how normalization makes this economic choice operational and traces its implications for identification and inference. In SVAR-IV and LP-IV, impact normalization yields the dynamic effect of an exogenous movement in an observed variable. It admits a reduced-form IV interpretation that need not invoke latent shocks; in VARs, it need not require shock recovery or invertibility. A shock-scale normalization, such as one standard deviation, instead targets a latent disturbance and uses the additional structural assumptions that recover its scale. The alternatives have different relevance and inference problems. Impact-normalized responses are ratio estimators with normalization-specific first stages. I propose a shock-based relevance diagnostic that targets the primitive instrument–shock condition and show that shock-scale responses avoid the additional weakness caused by selecting a poorly affected normalization variable, though they remain vulnerable to weak relevance for the shock itself. A natural-gas application and Monte Carlo evidence illustrate the implications for confidence intervals and weak-identification diagnostics.
