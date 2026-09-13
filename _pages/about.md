@@ -22,7 +22,7 @@ Updates
 
 **2026/06/23:** I will be presenting our work on gas prices at the [NBER Energy Markets and the Macroeconomy, Fall 2026](https://www.nber.org/conferences/energy-markets-and-macroeconomy-fall-2026) conference.
 
-**2026/06/23:** I will be presenting my work on identifying impulse responses with instruments at the [6th Sailing the Macro Workshop](https://sailingthemacro.org/#home).
+**2026/06/23:** I will be presenting my work on identifying impulse responses with instruments at the [6th Sailing the Macro Workshop](https://sailingthemacro.org/#home). You can find my slides [here](https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments_10min.pdf).
 
 **2026/06/22:** This week I will be presenting my work on identifying impulse responses with instruments at the [IAAE Annual Conference 2026](https://iaae2026.pages.dev/) in Lisbon. You can find my slides [here](https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments.pdf).
 
