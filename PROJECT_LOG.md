@@ -160,3 +160,10 @@
 - Files touched: files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf, PROJECT_LOG.md.
 - Commands/tests run + results: Source-to-target SHA-256 comparison passed (4F899E2B26B15C6CF033DDBF1C913320508C60526CEC40311AB2B79A2CECA697); target PDF header verified as %PDF-.
 - Follow-ups / TODOs: Push the commit and confirm the deployed legacy URL serves the updated PDF.
+
+### 2026-10-01 05:07:22 +02:00
+- What changed: Added a VoxEU publication note to the Gas Prices and the Macroeconomy details page and a VoxEU button to its research card.
+- Why: Make the paper's VoxEU publication easy to discover from the Research page and paper details.
+- Files touched: _publications/2024-Colombo-Toni.md, _includes/research-card.html, PROJECT_LOG.md.
+- Commands/tests run + results: Focused PowerShell source smoke check passed for the VoxEU URL, publication note, and card button; git diff --check passed with existing line-ending warnings. Full Jekyll rendering was not run.
+- Follow-ups / TODOs: None.

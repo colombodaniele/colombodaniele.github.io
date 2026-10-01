@@ -47,6 +47,9 @@
     {% if post.poster_url %}
       <a href="{{ post.poster_url }}">Poster</a>
     {% endif %}
+    {% if post.voxeu_url %}
+      <a href="{{ post.voxeu_url }}" rel="external">VoxEU</a>
+    {% endif %}
     <a href="{{ post.url | relative_url }}" rel="permalink">Details</a>
   </nav>
 </article>
