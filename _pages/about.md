@@ -20,6 +20,8 @@ My research focuses on macroeconometrics, with applications to energy, climate, 
 Updates
 ------
 
+**2026/09/30:** Our paper on natural gas supply risk and inflation has been published as a [VoxEU column](https://cepr.org/voxeu/columns/beyond-flows-how-natural-gas-supply-risk-fuels-inflation).
+
 **2026/06/23:** I will be presenting our work on gas prices at the [NBER Energy Markets and the Macroeconomy, Fall 2026](https://www.nber.org/conferences/energy-markets-and-macroeconomy-fall-2026) conference.
 
 **2026/06/23:** I will be presenting my work on identifying impulse responses with instruments at the [6th Sailing the Macro Workshop](https://sailingthemacro.org/#home). You can find my slides [here](https://colombodaniele.github.io/files/SLIDES_COLOMBO_2025_IRFs_with_instruments_10min.pdf).

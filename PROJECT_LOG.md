@@ -166,4 +166,9 @@
 - Why: Make the paper's VoxEU publication easy to discover from the Research page and paper details.
 - Files touched: _publications/2024-Colombo-Toni.md, _includes/research-card.html, PROJECT_LOG.md.
 - Commands/tests run + results: Focused PowerShell source smoke check passed for the VoxEU URL, publication note, and card button; git diff --check passed with existing line-ending warnings. Full Jekyll rendering was not run.
-- Follow-ups / TODOs: None.
+- Follow-ups / TODOs: None.### 2026-10-01 05:20:00 +02:00
+- What changed: Added a 2026/09/30 VoxEU publication announcement to the homepage Updates section.
+- Why: The publication notice belongs in the dated site updates as well as on the paper card and details page.
+- Files touched: _pages/about.md, PROJECT_LOG.md.
+- Commands/tests run + results: Focused PowerShell check passed for the date, announcement, and exact VoxEU URL; git diff --check passed with a line-ending warning.
+- Follow-ups / TODOs: Publish this homepage update.
