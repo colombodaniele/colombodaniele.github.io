@@ -172,3 +172,10 @@
 - Files touched: _pages/about.md, PROJECT_LOG.md.
 - Commands/tests run + results: Focused PowerShell check passed for the date, announcement, and exact VoxEU URL; git diff --check passed with a line-ending warning.
 - Follow-ups / TODOs: Publish this homepage update.
+
+### 2026-11-11 01:18:00 +01:00
+- What changed: Updated the Gas Prices paper page to the new title and PDF abstract, corrected the card byline year to match the existing 2025 citation, and replaced the PDF bytes at the existing public filename while preserving the paper page permalink and all PDF URL fields.
+- Why: Publish the QJE website version without Table I while keeping existing external links and embedded latest-version links valid.
+- Files touched: _publications/2024-Colombo-Toni.md, files/COLOMBO_TONI_2024_Gas_Price_Shocks_and_the_Inflation_Surge.pdf, PROJECT_LOG.md.
+- Commands/checks run + results: Fetched origin/master and created a clean scoped branch; source and website PDF SHA-256 both 5AA574A3CDBD0A60CBB0C9847FCA6C575C386CB8EE953F479FC0292A5461D927; inspected the replacement PDF (119 pages, new title on page 1, Figure II now on page 16); reviewed the scoped diff. No Jekyll build was run.
+- Follow-ups / TODOs: Push the commit and verify the deployed page and persistent PDF URL.
